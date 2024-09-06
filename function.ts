@@ -1,13 +1,13 @@
 
 // number
 
-function addTwo2(num : number) : number{
+function addTwo(num : number) : number{
     return num + 2 ;
 }
 
-var res  = addTwo(4);
 
-console.log(res);
+
+console.log(addTwo(4));
 
 
 
@@ -20,7 +20,7 @@ function toUpper2(str : string): string{
 
 // set default parameter value 
 
-function signup2(name : string , email : string , isPaid : boolean= false){
+function signup(name : string , email : string , isPaid : boolean= false){
    
 }
 
@@ -61,20 +61,4 @@ function fail(msg : string ) : never{
     throw new Error(msg) ;
 }
 
-let user = {
-    name : "Logesh",
-    age : 22 ,
-    isPaid : true 
-}
-
-function createUser({ name : string , age : number , isPaid : boolean}){}
-
-let newUser = {
-    name : "Logesh",
-    age : 22 ,
-    isPaid : true,
-    email : "logesh@gmail.com" // additional information
-}
-
-createUser(user)
-createUser(newUser)
+export{}
