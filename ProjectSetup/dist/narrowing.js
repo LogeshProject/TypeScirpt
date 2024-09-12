@@ -20,6 +20,9 @@ function printAll(str) {
     }
 }
 let str = ['a', 'b', 'c', 'd', 'e'];
+
+//comments added 
+
 let res2 = printAll(str);
 function isAdminAccount(account) {
     if ('isAdmin' in account) {
